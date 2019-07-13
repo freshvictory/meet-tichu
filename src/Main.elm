@@ -60,7 +60,7 @@ view model =
 banner : Model -> Html Msg
 banner model =
     div [ css [ backgroundColor (hex "#d42c2c"), padding (px 40) ] ]
-        [ h1 [ css [ color (hex "#ffed00"), fontSize (px 50), margin (px 0), paddingTop (px 250) ] ] [ text "Meet Tichu."]
+        [ h1 [ css [ color (hex "#ffed00"), fontSize (px 50), margin (px 0), paddingTop (px 250) ] ] [ text "Meet tichu.cards"]
         , h2 [ css [ marginBottom (px 30), marginTop (px 0) ] ] [ text "THE TICHU SCORING APP" ]
         , p [ css [ fontSize (px 24), color (hex "#fff"), Css.width (pct 50) ] ] [ text "Players can discover all that tichu.cards has to offer with an ∞-day free trial and access to 100+ games in three easy steps:" ]
         , ol [ css [ fontSize (px 20), color (hex "#fff") ] ]
