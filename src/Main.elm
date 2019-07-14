@@ -113,7 +113,7 @@ infoContent model =
 infoHeader : Model -> Html Msg
 infoHeader model =
     div []
-        [ div [ css [ fontSize (px 80), fontWeight (int 600), color colors.red ] ] [ text "tichu.cards" ]
+        [ div [ css [ fontSize (px 80), fontWeight (int 600), color colors.red ] ] [ text "tichu", wbr [] [], text ".cards" ]
         , div [ css [ fontSize (px 42) ] ] [ text "The right score. At the right time. For every player." ]
         ]
 
