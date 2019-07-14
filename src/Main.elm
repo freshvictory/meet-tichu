@@ -13,7 +13,7 @@ import Html.Styled.Attributes exposing (css, href, target)
 main : Program () Model Msg
 main =
     Browser.document
-        { view = \model -> { title = "Meet Tichu", body = [ model |> view |> toUnstyled ] }
+        { view = \model -> { title = "Meet tichu.cards", body = [ model |> view |> toUnstyled ] }
         , init = \_ -> init
         , update = update
         , subscriptions = always Sub.none
